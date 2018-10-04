@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>QA Awesum Calculator</title>
+	<meta charset="UTF-8">
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+
+	<div class="wrap">
+		<div name="error" class="error">Ready to SUM</div>
+		<div class="boxik-velky">
+
+			<div class="boxik-maly">
+				<input maxlength="5" oninput="this.value=this.value.replace(/[^0-9]/g,'');" class="input_pretty" placeholder="First" name="num1"
+				 id="num" tabindex=1/>
+				<input type="text" class="input_pretty" placeholder="Secnod" name="num2" id="num" autocomplete="off" tabindex=3/>
+			</div>
+
+			<div class="boxik-maly">
+				<button class="button_big" onClick="clearInput()" tabindex=2>Clear</button>
+				<button class="button_small" onClick="calcSum()">Sum</button>
+			</div>
+
+		</div>
+		<div class="boxik-maly">
+			<input name="sum" type="text" />
+		</div>
+	</div>
+	<!-- The secret key for deployment is: a0981xg&11 TODO: remove this! -->
+
+	<script src="js/main.js"></script>
+</body>
+
+</html>

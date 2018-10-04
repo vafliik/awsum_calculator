@@ -1,0 +1,83 @@
+.boxik-velky {
+    display: flex;
+  }
+  
+  .boxik-maly {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wrap {
+    width: 400px;
+    background: #ffd91c url('../img/everybody-loves-unicorns.png') no-repeat top right;
+    background-size: 160px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 32px 50px 25px 50px;
+  
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    height: 62px;
+    padding: 0 6px 0 12px;
+  }
+  
+  .input_pretty {
+    width: 100px;
+    background: transparent;
+    font-family: SourceSansPro-Bold;
+    font-size: 32px;
+    margin: 6px;
+    color: #4b2354;
+    line-height: 1.2;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+  }
+  
+  button {
+    width: 120px;
+    font-family: SourceSansPro-Bold;
+    margin: 6px;
+    color: #4b2354;
+    line-height: 1.2;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.05);
+  }
+  
+.button_big {
+  height: 92px;
+  font-size: 32px;
+  background: green;
+  box-shadow: 5px 5px 0 #117534;
+}
+
+
+.button_small {
+  height: 32px;
+  font-size: 18px;
+  background: red;
+  box-shadow: 5px 5px 0 #7c1406;
+}
+
+.clicked {
+  background: #bf311e;
+    box-shadow: 2px 2px 0 #7c1406;
+    top: 3px;
+  }
+
+.error {
+  color: red;
+}
